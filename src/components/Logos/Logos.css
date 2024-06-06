@@ -1,0 +1,56 @@
+.container {
+  margin: auto;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+
+
+.px-3 {
+  padding-left: 0.75rem; 
+  padding-right: 0.75rem;
+}
+
+
+.slider-container {
+  position: relative;
+  max-width: calc(100% - 40px); 
+  margin: 20px; 
+  padding: 0.5rem;
+  background: white;
+  border-radius: 30px; 
+  height: 100px; 
+}
+
+
+.slider-container::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  right: -20px;
+  bottom: -10px;
+  z-index: -1;
+  border-radius: 30px;
+  background: linear-gradient(45deg, cyan, #48AFDE);
+  height: calc(100%); 
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.h-12 {
+  height: 90px;
+}

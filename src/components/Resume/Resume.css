@@ -1,0 +1,127 @@
+.all{
+  padding-top: 10px;
+  margin:40px 0 40px 0;
+}
+
+.container-box {
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-style:ridge;
+    border-width: 3px;
+    border-radius: 50px;
+  }
+
+  .resume {
+    
+    position: relative;
+    background-color: black;
+    width: 120%;
+  }
+  .resume h2 {
+
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #B8B8B8;
+  }
+  .resume p {
+    padding: 10px;
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    text-align: right;
+
+  }
+  
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ddd;
+    gap: 200px;
+    text-align: left;
+    width: 40%;
+  }
+  
+  .tabs button {
+    padding-top: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #00ffff;
+    position: relative; 
+  }
+  
+  .tabs button:hover {
+    color: var(--yellow);
+  }
+  
+  
+  .content {
+    padding: 20px;
+    color: cadetblue;
+    width: 150%;
+  }
+  
+  
+  .icon-button .tooltip {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .icon-button:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon{
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+  }
+  
+  .tab-info{
+    line-height: 40px;
+  }
+
+  .resumebtn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 40px;
+    padding: 10px;
+
+  }
+  
+  .resumebtn {
+    padding: 10px 20px;
+    background-color: #00ffff; 
+    border-style: dotted;
+    border-color: white;
+    border-radius: 100px;
+    font-size: 16px;
+  }
+  
+  .resumebtn:hover {
+    background-color: #00cccc;
+    cursor:pointer;
+  }
+  
+  .emoji {
+    font-size: 30px;
+  }
