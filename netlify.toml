@@ -4,4 +4,4 @@
   publish = "Portfolio/build"
 
 [functions]
-  base = "Portfolio"
+  directory = "Portfolio/netlify/functions"
